@@ -1,28 +1,25 @@
-#include <stdio.h>
-#include<conio.h>
-int input(int*a,int*b)
+#include<stdio.h>
+void getinput(int*a,int*b)
 {
-    printf("enter a=\n");
-    scanf("%d",&a);
-    printf("enterb=\n");
-    scanf("%d",&b)
+    printf("enter the value of first number");
+    scanf("%d",a);
+    printf("enter the second value");
+    scanf("%d",b);
 }
-int add 2 no(int a,int b);
+int addtn(int a,int b)
 {
+    int c;
     c=a+b;
     return c;
 }
-int otput(inta,intb,intc)
+void getout(int a,int b,int c);
 {
-    printf("the Adition of two number",a,b,c);
-
-
-void output(inta,intb,intc)
-{
-    c=a+b;
-    printf("the adition of %d+%d=%d",a,b,c);
+    printf("%d+%d+%d",a,b,c);
 }
 int main()
-int(a,b,c)
-}
+{
+    int a,b,c;
+    getinput(&a,&b);
+    c=addtn(a,b);
+    getout(a,b,c);
 }
